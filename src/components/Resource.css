@@ -1,0 +1,64 @@
+/* .Card {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#resourceName {
+  color: #031106;
+} */
+
+.Card {
+  border: 1px solid #312929;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b1e9c1;
+}
+
+#photo {
+  max-width: 50%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#description {
+  background-color: #b1e9c1;
+}
+#resourceName {
+  margin: 0;
+  font-size: 1.5rem;
+  background-color: #b1e9c1;
+}
+
+h3 {
+  margin: 1rem;
+}
+
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
